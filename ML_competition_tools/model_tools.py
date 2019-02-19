@@ -8,8 +8,6 @@ from matplotlib import pyplot as plt
 from sklearn.model_selection import KFold
 from sklearn.metrics import roc_auc_score, mean_squared_error
 
-# TODO: add sklearn model, evaluate accuracy
-
 def train_lgb_cv(train_x, train_y, params, test_x=None, n_flods=5, return_fscore=False, features_name=None):
 	"""
 	params: {
